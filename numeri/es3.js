@@ -13,16 +13,19 @@
 function es3_1() {
   // 1. Restituisci Infinity (usa una divisione)
   // TODO: scrivi qui la tua soluzione
+  return 3/0
 }
 
 function es3_2() {
   // 2. Restituisci il risultato di isFinite(Infinity)
   // TODO: scrivi qui la tua soluzione
+  return isFinite(3/0)
 }
 
 function es3_3(valore) {
   // 3. Riceve un valore e restituisce true se è finito
   // TODO: scrivi qui la tua soluzione
+return  isFinite(1/1)
 }
 
 // --- NON MODIFICARE SOTTO ---
