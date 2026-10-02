@@ -25,7 +25,7 @@ function es3_2() {
 function es3_3(valore) {
   // 3. Riceve un valore e restituisce true se è finito
   // TODO: scrivi qui la tua soluzione
-return  isFinite(1/1)
+return  isFinite(valore)
 }
 
 // --- NON MODIFICARE SOTTO ---
