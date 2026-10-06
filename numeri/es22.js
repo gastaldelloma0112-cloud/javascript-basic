@@ -14,6 +14,9 @@ function es22() {
   const prezzo = 80;
   const sconto = 25;
   // TODO: scrivi qui la tua soluzione
+  var importoSconto = sconto/100 * prezzo
+  var finale = prezzo - importoSconto
+  return {originale: prezzo, sconto, importoSconto, finale}
 }
 
 // --- NON MODIFICARE SOTTO ---

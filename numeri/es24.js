@@ -15,6 +15,11 @@
 
 function es24(n) {
   // TODO: scrivi qui la tua soluzione
+  var radice = Math.sqrt(n)
+  if (radice < 0){
+    radice = Math.round(n, 2)
+  }
+  return {positivo: n > 0, pari: n % 2 == 0, assoluto: Math.abs(n), radice }
 }
 
 // --- NON MODIFICARE SOTTO ---
