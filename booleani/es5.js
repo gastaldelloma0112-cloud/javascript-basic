@@ -24,11 +24,9 @@ function es5_3(disconnesso) {
   // 3. Se disconnesso è true, restituisci "Accesso negato", altrimenti "Benvenuto"
   // (usa l'operatore ! per invertire la condizione)
   // TODO: scrivi qui la tua soluzione
-  if (!disconnesso === true){
-    return "benvenuto"
-  else {return "accesso negato"
-    
+  if (!disconnesso) {return "Accesso negato"    
   }
+  else {return "Accesso negato"
   }
 }
 
