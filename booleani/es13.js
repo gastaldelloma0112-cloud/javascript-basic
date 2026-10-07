@@ -13,6 +13,8 @@
 
 function es13(coupon, totale, fedele) {
   // TODO: scrivi qui la tua soluzione
+  return coupon || totale >=100 && fedele;
+
 }
 
 // --- NON MODIFICARE SOTTO ---

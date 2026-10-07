@@ -22,7 +22,7 @@ if (ruolo === "editor") {
 if (ruolo === "viewer" && isLogged) {
   return true
 }
-
+return false
 }
 
 // --- NON MODIFICARE SOTTO ---
