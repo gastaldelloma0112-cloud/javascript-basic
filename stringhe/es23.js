@@ -15,6 +15,11 @@
 function es23() {
   const parola = "Programmazione";
   // TODO: scrivi qui la tua soluzione
+  var primo = parola.at(0)
+  var ultimo = parola.at(-1)
+  var lunghezza = parola.length
+  var primeSei = parola.slice(0, 6) 
+  return{primo, ultimo, lunghezza, primeSei}
 }
 
 // --- NON MODIFICARE SOTTO ---

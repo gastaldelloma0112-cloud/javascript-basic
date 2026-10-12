@@ -13,6 +13,9 @@
 function es17() {
   const file = "vacanze_estate_2026.jpg";
   // TODO: scrivi qui la tua soluzione
+  const isJpg = file.endsWith(".jpg");
+ return { isJpg, nome: file.slice(0, file.indexOf("." ))
+ }
 }
 
 // --- NON MODIFICARE SOTTO ---

@@ -14,6 +14,7 @@
 
 function es21(frase) {
   // TODO: scrivi qui la tua soluzione
+  return frase.trim().toLowerCase().replace(" ", "_");
 }
 
 // --- NON MODIFICARE SOTTO ---

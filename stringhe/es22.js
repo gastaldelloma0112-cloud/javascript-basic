@@ -12,6 +12,9 @@
 function es22() {
   const persona = "Mario Rossi";
   // TODO: scrivi qui la tua soluzione
+  var nome = persona.slice(0, persona.indexOf(" "))
+  var cognome = persona.slice(persona.indexOf(" ")+1)
+  return {nome, cognome}
 }
 
 // --- NON MODIFICARE SOTTO ---

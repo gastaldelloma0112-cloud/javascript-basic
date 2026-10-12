@@ -14,6 +14,10 @@
 function es20() {
   const url = "https://developer.mozilla.org";
   // TODO: scrivi qui la tua soluzione
+  var isHttps = url.startsWith("https")
+  var hasMozilla = url.includes("mozilla")
+  var dominio = url.slice(url.indexOf("//")+2,)
+  return {isHttps, hasMozilla, dominio}
 }
 
 // --- NON MODIFICARE SOTTO ---

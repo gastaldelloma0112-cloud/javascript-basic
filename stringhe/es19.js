@@ -12,6 +12,7 @@
 function es19() {
   const frase = "oggi piove e oggi fa freddo";
   // TODO: scrivi qui la tua soluzione
+  return frase.replaceAll("oggi", "domani");
 }
 
 // --- NON MODIFICARE SOTTO ---

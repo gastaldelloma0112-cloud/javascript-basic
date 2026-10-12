@@ -14,6 +14,8 @@
 function es18() {
   const nome = "   mattia   ";
   // TODO: scrivi qui la tua soluzione
+  var pulito = nome.trim().toUpperCase();
+  return {pulito, lunghezza: pulito.length};
 }
 
 // --- NON MODIFICARE SOTTO ---
